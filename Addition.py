@@ -1,8 +1,8 @@
                             # This is a Feature of Addition i.e. Sum of two number.
 
-def add(x, y):   # Here we stored our numbers in variables (x and y).
+def add( a , b ):   # Here we stored our numbers in parameter (a and b).
     
-    return x + y            # Here Process Addition is performed. 
+    return a + b            # Here Process Addition is performed. 
 
 
-         # This function of Addition is contributed by Abhay Singh
+        
