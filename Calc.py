@@ -1,6 +1,6 @@
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("Select operation")
+print("A.Add")
+print("B.Subtract")
+print("C.Multiply")
+print("D.Divide")
 
