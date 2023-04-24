@@ -1,4 +1,7 @@
-# This function adds two numbers
+# This function divides two numbers .
 def divide(a, b):
-    return a / b
-
+    # Division By Zero Fixed By Abhay Singh
+    if b == 0:
+        print(" Division by zero not possible ")
+    else:
+     return a / b
