@@ -3,18 +3,18 @@ import Subtraction
 import Multiplication
 import Division
 
-print("Select Hurkat.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("Select operation")
+print("A.Add")
+print("B.Subtract")
+print("C.Multiply")
+print("D.Divide")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(A/B/C/D): ")
 
     # check if choice is one of the four options
-    if choice in ('1', '2', '3', '4'):
+    if choice in ('A', 'B', 'C', 'D'):
         try:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
@@ -22,16 +22,16 @@ while True:
             print("Invalid input. Please enter a number.")
             continue
 
-        if choice == '1':
+        if choice == 'A':
             print(num1, "+", num2, "=", Addition.add(num1, num2))
 
-        elif choice == '2':
+        elif choice == 'B':
             print(num1, "-", num2, "=", Subtraction.subtract(num1, num2))
 
-        elif choice == '3':
+        elif choice == 'C':
             print(num1, "*", num2, "=", Multiplication.multiply(num1, num2))
 
-        elif choice == '4':
+        elif choice == 'D':
             print(num1, "/", num2, "=", Division.divide(num1, num2))
         
         # check if user wants another calculation
@@ -41,3 +41,4 @@ while True:
           break
     else:
         print("Invalid Input")
+
